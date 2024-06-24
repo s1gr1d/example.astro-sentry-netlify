@@ -1,0 +1,40 @@
+{
+  "name": "astro-test-application",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "fix:prettier": "prettier . --write",
+    "fix:lint": "yarn run eslint --fix"
+  },
+  "dependencies": {
+    "@astrojs/check": "^0.5.10",
+    "@astrojs/node": "^8.2.5",
+    "@sentry/astro": "8.9.2",
+    "astro": "^4.7.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.0.0",
+    "@typescript-eslint/eslint-plugin": "^7.6.0",
+    "@typescript-eslint/parser": "^7.6.0",
+    "eslint": "^9.0.0",
+    "prettier": "^3.2.5",
+    "typescript": "5.5.2",
+    "typescript-eslint": "^7.6.0"
+  },
+  "volta": {
+    "node": "20.12.1",
+    "yarn": "4.1.1"
+  },
+  "prettier": {
+    "arrowParens": "avoid",
+    "printWidth": 100,
+    "proseWrap": "always",
+    "singleQuote": true,
+    "trailingComma": "all"
+  }
+}
