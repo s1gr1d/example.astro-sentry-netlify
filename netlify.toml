@@ -4,4 +4,4 @@
 
 [functions]
   node_bundler = "esbuild"
-  included_files = ["node_modules/@opentelemetry/instrumentation/hook.mjs"]
+  external_node_modules = ["@opentelemetry/instrumentation"]
