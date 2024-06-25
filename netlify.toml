@@ -5,4 +5,4 @@
 [functions]
   node_bundler = "esbuild"
   external_node_modules = ["@opentelemetry/instrumentation", "import-in-the-middle"]
-  included_files = ["node_modules/@opentelemetry/instrumentation/**", "node_modules/import-in-the-middle/**"]
+  included_files = ["node_modules/*"]
