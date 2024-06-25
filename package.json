@@ -15,6 +15,7 @@
     "@astrojs/check": "^0.5.10",
     "@astrojs/netlify": "^5.3.2",
     "@astrojs/node": "^8.2.5",
+    "@opentelemetry/instrumentation": "^0.52.1",
     "@sentry/astro": "8.9.2",
     "astro": "^4.7.0"
   },
@@ -23,6 +24,7 @@
     "@typescript-eslint/eslint-plugin": "^7.6.0",
     "@typescript-eslint/parser": "^7.6.0",
     "eslint": "^9.0.0",
+    "netlify-cli": "^17.29.0",
     "prettier": "^3.2.5",
     "typescript": "5.5.2",
     "typescript-eslint": "^7.6.0"
