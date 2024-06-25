@@ -1,5 +1,5 @@
 [build]
-  command = "ls"
+  command = "cd node_modules/@opentelemetry/instrumentation && ls"
   publish = "dist"
 
 [functions]
