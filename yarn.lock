@@ -5062,6 +5062,7 @@ __metadata:
     "@typescript-eslint/parser": "npm:^7.6.0"
     astro: "npm:^4.7.0"
     eslint: "npm:^9.0.0"
+    import-in-the-middle: "npm:1.8.1"
     netlify-cli: "npm:^17.29.0"
     prettier: "npm:^3.2.5"
     typescript: "npm:5.5.2"
@@ -9083,7 +9084,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"import-in-the-middle@npm:^1.8.1":
+"import-in-the-middle@npm:1.8.1, import-in-the-middle@npm:^1.8.1":
   version: 1.8.1
   resolution: "import-in-the-middle@npm:1.8.1"
   dependencies:
