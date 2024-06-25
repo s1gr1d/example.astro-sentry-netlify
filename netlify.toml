@@ -1,5 +1,5 @@
 [build]
-  command = "npm run build"
+  command = "ls"
   publish = "dist"
 
 [functions]
