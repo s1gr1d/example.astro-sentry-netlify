@@ -1,5 +1,5 @@
 [build]
-  command = "cd node_modules/@opentelemetry/instrumentation && ls"
+  command = "rm -rf dist && mkdir dist && rsync -rv * dist --exclude ./dist"
   publish = "dist"
 
 [functions]
