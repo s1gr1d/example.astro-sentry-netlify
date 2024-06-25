@@ -3,4 +3,4 @@
   publish = "dist"
 
 [functions]
-  included_files = ["node_modules/*"]
+  included_files = ["node_modules/@opentelemetry/instrumentation/*", "node_modules/import-in-the-middle/*", "node_modules/acorn-import-attributes/*"]
