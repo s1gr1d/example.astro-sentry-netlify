@@ -3,4 +3,5 @@
   publish = "dist"
 
 [functions]
-  external_node_modules = ["/var/task/node_modules/@opentelemetry/instrumentation/hook.mjs"]
+  node_bundler = "esbuild"
+  external_node_modules = ["@opentelemetry/instrumentation/hook.mjs"]
